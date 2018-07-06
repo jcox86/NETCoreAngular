@@ -3,7 +3,6 @@ C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\bin\Debug\netcoreapp2
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.csproj.CoreCompileInputs.cache
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.AssemblyInfoInputs.cache
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.AssemblyInfo.cs
-C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.csprojAssemblyReference.cache
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\bin\Debug\netcoreapp2.1\NETCore_Angular1.Tests.pdb
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.dll
 C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.Tests\obj\Debug\netcoreapp2.1\NETCore_Angular1.Tests.pdb
