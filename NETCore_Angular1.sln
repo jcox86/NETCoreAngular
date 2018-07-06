@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore_Angular1", "NETCore_Angular1\NETCore_Angular1.csproj", "{1DC96B3A-18CF-46D6-8FB6-B2343387D62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore_Angular1", "NETCore_Angular1\NETCore_Angular1.csproj", "{1DC96B3A-18CF-46D6-8FB6-B2343387D62D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "specs", "specs", "{91DA0CF7-1200-4A5D-8872-AAD31CBE76F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore_Angular1.Tests", "NETCore_Angular1.Tests\NETCore_Angular1.Tests.csproj", "{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{1DC96B3A-18CF-46D6-8FB6-B2343387D62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC96B3A-18CF-46D6-8FB6-B2343387D62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC96B3A-18CF-46D6-8FB6-B2343387D62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD442885-0F4A-4F1F-8881-EA1A3D47FE00} = {91DA0CF7-1200-4A5D-8872-AAD31CBE76F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA5A320E-B0AC-4C9F-8796-BE2C6148C817}
