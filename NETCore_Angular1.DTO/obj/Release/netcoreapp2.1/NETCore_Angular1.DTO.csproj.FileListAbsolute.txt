@@ -1,0 +1,9 @@
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\bin\Release\netcoreapp2.1\NETCore_Angular1.DTO.deps.json
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\bin\Release\netcoreapp2.1\NETCore_Angular1.DTO.dll
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\bin\Release\netcoreapp2.1\NETCore_Angular1.DTO.pdb
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.csproj.CoreCompileInputs.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.AssemblyInfoInputs.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.AssemblyInfo.cs
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.dll
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.pdb
+C:\Projects\Others\NETCore_Angular1\NETCore_Angular1.DTO\obj\Release\netcoreapp2.1\NETCore_Angular1.DTO.csprojAssemblyReference.cache

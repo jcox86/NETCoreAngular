@@ -47,12 +47,6 @@ namespace NETCore_Angular1
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
-            //app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute(
-            //        name: "default",
-            //        template: "{controller}/{action=Index}/{id?}");
-            //});
             app.UseOwin(x => x.UseNancy(options =>
             {
                 options.Bootstrapper = new Bootstrapper(env);
