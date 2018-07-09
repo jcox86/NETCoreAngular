@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
   templateUrl: './fetch-data.component.html'
 })
 export class FetchDataComponent {
-  private forecasts: IWeatherForecast[];
+  public forecasts: IWeatherForecast[];
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
     http.get<IWeatherForecast[]>(baseUrl + 'api/Client').subscribe(result => {
