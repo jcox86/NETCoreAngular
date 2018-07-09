@@ -10,10 +10,13 @@
 
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <ApplicationInsightsResourceId>/subscriptions/310e5c1e-c974-46b9-ae5b-065fae7c0c02/resourcegroups/Free/providers/microsoft.insights/components/NETCore_Angular1</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/310e5c1e-c974-46b9-ae5b-065fae7c0c02/resourcegroups/Free/providers/microsoft.insights/components/NETCore_Angular1</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.0" />
     <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
@@ -28,6 +31,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NETCore_Angular1.DTO\NETCore_Angular1.DTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
