@@ -24,14 +24,27 @@ namespace NETCore_Angular1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>//TODO: Doesn't work
+            services.AddMvcCore()
+                .AddAuthorization()
+                .AddJsonFormatters();
+
+            services.AddAuthentication("Bearer")
+                .AddIdentityServerAuthentication(options =>
                 {
-                    options.SlidingExpiration = true;
-                    options.Cookie.SameSite = SameSiteMode.Strict;
-                    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                    options.Authority = "https://localhost:5000";
+                    options.RequireHttpsMetadata = true;
+
+                    options.ApiName = "api1";
                 });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            //    .AddCookie(options =>//TODO: Doesn't work
+            //    {
+            //        options.SlidingExpiration = true;
+            //        options.Cookie.SameSite = SameSiteMode.Strict;
+            //        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            //    });
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddHsts(options =>
             {
@@ -84,11 +97,12 @@ namespace NETCore_Angular1
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
-            app.UseOwin(x => x.UseNancy(options =>
-            {
-                options.Bootstrapper = new Bootstrapper(env);
-                options.PassThroughWhenStatusCodesAre(HttpStatusCode.BadRequest, HttpStatusCode.NotFound, HttpStatusCode.InternalServerError);
-            }));
+            //app.UseOwin(x => x.UseNancy(options =>
+            //{
+            //    options.Bootstrapper = new Bootstrapper(env);
+            //    options.PassThroughWhenStatusCodesAre(HttpStatusCode.BadRequest, HttpStatusCode.NotFound, HttpStatusCode.InternalServerError);
+            //}));
+            app.UseMvc();
 
             app.UseSpa(spa =>
             {

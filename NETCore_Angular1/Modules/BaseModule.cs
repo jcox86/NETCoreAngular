@@ -4,7 +4,7 @@ namespace NETCore_Angular1.Modules
 {
     public abstract class BaseModule : NancyModule
     {
-        protected BaseModule() : base("/api")
+        protected BaseModule(string route) : base(route)
         {
             
         }

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore_Angular1", "NETCore
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "specs", "specs", "{91DA0CF7-1200-4A5D-8872-AAD31CBE76F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore_Angular1.Tests", "NETCore_Angular1.Tests\NETCore_Angular1.Tests.csproj", "{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore_Angular1.Tests", "NETCore_Angular1.Tests\NETCore_Angular1.Tests.csproj", "{DD442885-0F4A-4F1F-8881-EA1A3D47FE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore_Angular1.DTO", "NETCore_Angular1.DTO\NETCore_Angular1.DTO.csproj", "{A01CB80B-32F4-4EF1-BCC7-5FC630887B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore_Angular1.DTO", "NETCore_Angular1.DTO\NETCore_Angular1.DTO.csproj", "{A01CB80B-32F4-4EF1-BCC7-5FC630887B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore_Identity", "NETCore_Identity\NETCore_Identity.csproj", "{DE8571AA-274C-452F-B1C3-99D6B1FA8485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A01CB80B-32F4-4EF1-BCC7-5FC630887B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01CB80B-32F4-4EF1-BCC7-5FC630887B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01CB80B-32F4-4EF1-BCC7-5FC630887B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8571AA-274C-452F-B1C3-99D6B1FA8485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8571AA-274C-452F-B1C3-99D6B1FA8485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8571AA-274C-452F-B1C3-99D6B1FA8485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8571AA-274C-452F-B1C3-99D6B1FA8485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

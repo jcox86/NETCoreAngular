@@ -1,0 +1,14 @@
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\bin\Debug\netcoreapp2.1\NETCore_Identity.deps.json
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\bin\Debug\netcoreapp2.1\NETCore_Identity.runtimeconfig.json
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\bin\Debug\netcoreapp2.1\NETCore_Identity.runtimeconfig.dev.json
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\bin\Debug\netcoreapp2.1\NETCore_Identity.dll
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.csproj.CoreCompileInputs.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.RazorAssemblyInfo.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.RazorAssemblyInfo.cs
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.AssemblyInfoInputs.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.AssemblyInfo.cs
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.RazorTargetAssemblyInfo.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\bin\Debug\netcoreapp2.1\NETCore_Identity.pdb
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.csprojAssemblyReference.cache
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.dll
+C:\Projects\Others\NETCore_Angular1\NETCore_Identity\obj\Debug\netcoreapp2.1\NETCore_Identity.pdb

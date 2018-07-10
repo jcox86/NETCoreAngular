@@ -7,13 +7,13 @@ namespace NETCore_Angular1.Modules.Client
 {
     public sealed class SampleDataModule : BaseModule
     {
-        public SampleDataModule(SampleDataManager manager)
+        public SampleDataModule(SampleDataManager manager) : base("/client")
         {
-            Get("/client/counter", args => new { count = manager.ClientList.Count });
+            Get("/counter", args => new { count = manager.ClientList.Count });
 
-            Get("/client", arg => JsonConvert.SerializeObject(manager.ClientList));
+            Get("/", arg => JsonConvert.SerializeObject(manager.ClientList));
 
-            Post("/client", args =>
+            Post("/", args =>
             {
                 var entity = this.Bind<ClientCriteria>();
                 entity.Id = manager.ClientList.Count;
